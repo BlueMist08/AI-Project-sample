@@ -65,10 +65,18 @@ cd AI-Project-sample
 ```
 
 ### Step 2: Create and activate a virtual environment
-- **On Windows (PowerShell / Command Prompt):**
+- **On Windows (PowerShell):**
   ```powershell
+  # If PowerShell script execution is restricted, run this once:
+  Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+
   python -m venv venv
   venv\Scripts\activate
+  ```
+- **On Windows (Command Prompt - cmd):**
+  ```cmd
+  python -m venv venv
+  venv\Scripts\activate.bat
   ```
 - **On macOS / Linux:**
   ```bash
