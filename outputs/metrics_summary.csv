@@ -1,0 +1,7 @@
+Model,Feature Set,Train R2,Test R2,Train RMSE,Test RMSE,Train MAE,Test MAE
+Linear Regression,Audio Features,0.032,0.0293,20.281,20.149,16.704,16.598
+Ridge Regression,Audio Features,0.032,0.0293,20.281,20.149,16.704,16.598
+Lasso Regression,Audio Features,0.0318,0.0294,20.282,20.148,16.722,16.613
+Decision Tree,Audio Features,0.1056,0.0783,19.494,19.633,15.713,15.827
+Random Forest,Audio Features,0.243,0.1494,17.934,18.862,14.275,15.127
+Random Forest (Enhanced),Audio + Genre + Explicit,0.4933,0.4025,14.672,15.808,10.316,11.076
